@@ -51,8 +51,21 @@ export default function ExamplesPage() {
               </Button>
             </div>
           </div>
+
+          {/* Add New Row Example */}
+          <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
+            <div className="p-6">
+              <h3 className="text-2xl font-bold">Add New Row</h3>
+              <p className="text-sm text-muted-foreground">
+                Table with the ability to add new rows directly.
+              </p>
+              <Button asChild className="mt-4">
+                <Link href="/examples/with-add-new-row">View Example</Link>
+              </Button>
+            </div>
+          </div>
         </div>
-      </div>
+      </div>        
     </Shell>
   )
 } 
