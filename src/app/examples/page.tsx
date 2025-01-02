@@ -1,4 +1,4 @@
-import { Shell } from "@/components/shell"
+ import { Shell } from "@/components/shell"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -24,7 +24,7 @@ export default function ExamplesPage() {
                   A simple data table with basic sorting and filtering.
                 </p>
                 <Button asChild className="mt-4">
-                  <Link href="/examples/basic">View Example</Link>
+                  <Link href="/examples/shadcn-table/basic">View Example</Link>
                 </Button>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function ExamplesPage() {
                   Advanced features like multi-select, row actions, and custom filters.
                 </p>
                 <Button asChild className="mt-4">
-                  <Link href="/examples/advanced-table">View Example</Link>
+                  <Link href="/examples/shadcn-table/advanced-table">View Example</Link>
                 </Button>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function ExamplesPage() {
                   Table with a floating action bar for bulk actions.
                 </p>
                 <Button asChild className="mt-4">
-                  <Link href="/examples/floating-bar">View Example</Link>
+                  <Link href="/examples/shadcn-table/floating-bar">View Example</Link>
                 </Button>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function ExamplesPage() {
                   Table with the ability to add new rows directly.
                 </p>
                 <Button asChild className="mt-4">
-                  <Link href="/examples/with-add-new-row">View Example</Link>
+                  <Link href="/examples/shadcn-table/with-add-new-row">View Example</Link>
                 </Button>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function ExamplesPage() {
                   Interactive roadmap table with timeline visualization.
                 </p>
                 <Button asChild className="mt-4">
-                  <Link href="/examples/roadmap-ui">View Example</Link>
+                  <Link href="/examples/roadmap-ui/table">View Example</Link>
                 </Button>
               </div>
             </div>
