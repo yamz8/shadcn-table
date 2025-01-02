@@ -18,14 +18,20 @@ export function SiteHeader() {
         </Link>
         <nav className="flex w-full items-center gap-6 text-sm">
           <Link
-            href="https://www.sadmn.com/blog/shadcn-table"
+            href="/docs"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground/60 transition-colors hover:text-foreground"
           >
             Docs
           </Link>
-        </nav>
+          <Link
+            href="/examples"
+            className="text-foreground/60 transition-colors hover:text-foreground"
+          >
+            Examples
+          </Link>
+        </nav>        
         <nav className="flex flex-1 items-center md:justify-end">
           <Button variant="ghost" size="icon" className="size-8" asChild>
             <Link
