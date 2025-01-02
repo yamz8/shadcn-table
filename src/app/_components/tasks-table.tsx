@@ -150,7 +150,7 @@ export function TasksTable({ promises }: TasksTableProps) {
     },
     getRowId: (originalRow) => originalRow.id,
     shallow: false,
-    clearOnDefault: true,
+    clearOnDefault: false,
   })
 
   return (
